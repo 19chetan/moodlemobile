@@ -77,14 +77,14 @@
 
     <plugin name="cordova-plugin-camera" source="npm" />
     <plugin name="cordova-plugin-media-capture" source="npm" />
-    <gap:plugin name="org.apache.cordova.console" />
-    <gap:plugin name="org.apache.cordova.device" version="0.2.8"/>
-    <gap:plugin name="org.apache.cordova.file" />
-    <gap:plugin name="org.apache.cordova.file-transfer" />
-    <gap:plugin name="org.apache.cordova.globalization" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <plugin name="cordova-console" source="npm" />
+    <plugin name="cordova-device" version="0.2.8" source="npm"/>
+    <plugin name="cordova-file" source="npm" />
+    <plugin name="cordova-file-transfer" source="npm"/>
+    <plugin name="cordova-globalization" source="npm"/>
+    <plugin name="cordova-inappbrowser" source="npm"/>
+    <plugin name="cordova-network-information" source="npm" />
+    <plugin name="cordova-splashscreen" source="npm" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
 
     <gap:plugin name="com.phonegap.plugins.pushplugin" />
