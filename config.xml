@@ -85,11 +85,11 @@
     <plugin name="cordova-inappbrowser" source="npm"/>
     <plugin name="cordova-network-information" source="npm" />
     <plugin name="cordova-splashscreen" source="npm" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <plugin name="cordova-plugin-statusbar" source="npm"/>
 
-    <gap:plugin name="com.phonegap.plugins.pushplugin" />
-    <gap:plugin name="net.tunts.webintent" />
-    <gap:plugin name="nl.x-services.plugins.launchmyapp">
+    <plugin name="cordova-plugins-pushplugin" source="npm"/>
+    <plugin name="cordova-net-tunts-webintent" source="npm"/>
+    <plugin name="nl-x-services-plugins-launchmyapp" source="npm">
         <param name="URL_SCHEME" value="moodlemobile" />
     </gap:plugin>
     <gap:plugin name="com.ionic.keyboard" version="1.0.3" />
